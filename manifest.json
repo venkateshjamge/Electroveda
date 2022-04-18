@@ -1,7 +1,7 @@
 {
     "name": "Electroveda",
     "short_name": "Elec",
-    "start-url": ".",
-    "background-color": "blue",
+    "start_url": ".",
+    "background_color": "blue",
     "theme_color": "red"
 }
