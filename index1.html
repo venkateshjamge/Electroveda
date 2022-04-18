@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400&display=swap" rel="stylesheet">
+    <title>Company Product Key Generator</title>
+    <link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!-- Content here -->
+        <div class="row">
+            <div class="col-lg-7 col-md-7 col-sm-7 heading1">
+                <h3>Electroid Systems</h3>
+            </div>
+            <div class="col-lg-5 col-md-5 col-sm-5 heading2">
+                <h3>Smart Logic Technologies</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-7 col-md-12 col-sm-12 customerDetails">
+                <form action="">
+                    <table>
+                        <caption style="text-align:center;font-weight: bold;color:black;"> CustomerDetails</caption>
+
+                        <tbody>
+                            <tr>
+                                <th>Password</th>
+                                <td>
+                                    <input type="password" name="password" placeholder="Your password"><br>
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <th>Name</th>
+                                <td><input type="text" name="fname" placeholder="FirstName"></td>
+                                <td><input type="text" name="mname" placeholder="MiddleName"></td>
+                                <td><input type="text" name="lname" placeholder="Last Name"></td>
+
+
+                            </tr>
+                            <tr>
+                                <th>Address</th>
+                                <td colspan="2"><input type="text" name="Address" placeholder="Address"><input type="text" name="Address" placeholder="Address"></td>
+                                <td><input type="text" name="Pincode" placeholder="Pincode"></td>
+
+                            </tr>
+                            <tr>
+                                <th>City</th>
+                                <td><input type="text" name="city" placeholder="City"></td>
+
+                            </tr>
+                        </tbody>
+                    </table>
+                    <textarea name="paragraph_text" cols="90" rows="15"></textarea>
+
+                </form>
+            </div>
+            <div class="col-lg-5 col-md-12 col-sm-5 mainMasster panel-body table-responsive">
+
+                <table id="example" class="table display nowrap dataTable dtr-inline" style="width:100%">
+                    <caption style="text-align:center;font-weight: bold;color:black;"> Main Master</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">First</th>
+                            <th scope="col">Last</th>
+                            <th scope="col">Handle</th>
+                            <th scope="col">First</th>
+                            <th scope="col">Handle</th>
+                            <th scope="col">Handle</th>
+                            <th scope="col">Last</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Larry the Bird</td>
+                            <td>@twitter</td>
+                            <td>@twitter</td>
+                            <td>Larry the Bird</td>
+                            <td>@twitter</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">4</th>
+                        </tr>
+                        <tr>
+                            <th scope="row">5</th>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-lg-3">
+                <form action="">
+                    <label>
+                        Select Menu:
+                        <select id="menuItems" name="cars" style="width: 49%;">
+                            <option value="volvo">Volvo</option>
+                            <option value="saab">Saab</option>
+                            <option value="fiat" selected>Main Item</option>
+                            <option value="audi">Audi</option>
+                        </select>
+                        
+                    </label>
+                    <br>
+                    <select id="dep" name="department" style="width: 50%;">
+                            <option value="volvo">Volvo</option>
+                            <option value="saab">Saab</option>
+                            <option value="fiat" selected>Fiat</option>
+                            <option value="audi">Audi</option>
+                    </select>
+                    <br>
+                    <select id="grp1" name="group1 " style="width: 50%;">
+                            <option value="volvo ">Volvo</option>
+                            <option value="saab ">Saab</option>
+                            <option value="fiat " selected>Fiat</option>
+                            <option value="audi ">Audi</option>
+                    </select>
+                    <br>
+                    <select id="grp2" name="group2" style="width: 50%;">
+                        <option value="volvo ">Volvo</option>
+                        <option value="saab ">Saab</option>
+                        <option value="fiat " selected>HNS Cd</option>
+                        <option value="audi ">Audi</option>
+                    </select>
+                    <input type="submit" value="Submit" style="height: 25px;">
+                </form>
+            </div>
+            <div class="col-lg-2">
+                <div style="text-align: center;">Text Format Delimeter</div>
+
+                <b><input type="radio">Comma 
+                <input type="radio">Space<br>
+                <!-- <button type="button" class="button"> ViewGrid</button><br> -->
+                <button class="bt gr"> New Setting</button><br>
+                <button class="bt rd"> Save Setting</button><br>
+                <button class="bt gr"> Acv-itemInf</button><br>
+
+            </div>
+            
+        </div>
+        <div class="row">
+            
+            <div class="col-lg-1">
+                <form action="">
+                    <label for="">Curnt Rec</label><br>
+                    <input type="number"style="width: 90px;" >
+                    <label for="">Total Rec</label><br>
+                    <input type="number" style="width: 90px;">
+                    <label for="">Sort By</label>
+                    <select id="dep" name="department" style="width: 90px;">
+                            <option value="volvo">Volvo</option>
+                            <option value="saab">Saab</option>
+                            <option value="fiat" selected>Code</option>
+                            <option value="audi">Audi</option>
+                    </select>
+                </form>
+            </div>
+            <div class="col-lg-9">
+                <form action="">
+                    <label for="">Product/Item Details</label>
+                    
+                </form>
+            </div>
+            <div class="col-lg-2"><button class="bt rd"> Rcv-Items</button><br>
+                <button class="bt rd"> Txm-Shoplnt</button><br>
+                <button class="bt rd"> Txm-Listlnt</button><br>
+                <button class="bt rd"> Txm-Itemlnt</button><br>
+                <button class="bt rd"> Txm-Filelnt</button><br>
+                <button class="bt bl"> Transmit</button><br>
+                <button class="bt dr"> Exit</button></b>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
+
+</html>

@@ -1,0 +1,67 @@
+body {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    background-color: rgba(216, 222, 172, 0.549);
+}
+
+.container {
+    margin: 0;
+    text-align: center;
+}
+
+.heading1 {
+    border: solid;
+    padding-right: 0;
+    border-color: blue;
+    border-radius: 5%;
+    text-align: left;
+}
+
+.heading2 {
+    text-align: right;
+    margin-right: 0%;
+}
+
+.table-responsive {
+    max-width: 600px;
+}
+
+.table-responsive1 {
+    max-height: 100%;
+}
+
+.ex1 {
+    empty-cells: hide;
+    background-color: aliceblue;
+    border: 1px solid rgb(0, 255, 38);
+}
+
+table,
+th,
+td {
+    border: 1px solid;
+}
+
+
+/* Buttons Decoration */
+
+.bt {
+    text-align: center;
+    width: 100%;
+    margin: 1%;
+}
+
+.gr {
+    background-color: rgb(175, 233, 177);
+}
+
+.rd {
+    background-color: rgb(232, 147, 128);
+}
+
+.bl {
+    background-color: rgb(88, 159, 207);
+}
+
+.dr {
+    background-color: rgb(237, 87, 87);
+}
