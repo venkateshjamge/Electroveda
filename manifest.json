@@ -3,5 +3,17 @@
     "short_name": "Elec",
     "start_url": ".",
     "background_color": "blue",
-    "theme_color": "red"
+    "theme_color": "red",
+    "display": "standalone",
+    "icons": [{
+            "src": "images/Electrovedalmg.jpeg",
+            "sizes": "512x512",
+            "types": "images/jpeg"
+        },
+        {
+            "src": "images/Electrovedalmg.jpeg",
+            "sizes": "512x512",
+            "types": "images/jpeg"
+        }
+    ]
 }
