@@ -12,7 +12,7 @@
         },
         {
             "src": "https://raw.githubusercontent.com/venkateshjamge/Electroveda/main/images/ElectrovedaImg512.png",
-            "sizes": "512x512",
+            "sizes": "511x511",
             "types": "images/png"
         }
     ]
