@@ -8,12 +8,12 @@
     "icons": [{
             "src": "images/Electrovedalmg.png",
             "sizes": "192x192",
-            "types": "images/jpeg"
+            "types": "images/png"
         },
         {
             "src": "images/Electrovedalmg.png",
             "sizes": "512x512",
-            "types": "images/jpeg"
+            "types": "images/png"
         }
     ]
 }
