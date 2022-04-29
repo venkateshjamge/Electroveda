@@ -6,12 +6,12 @@
     "theme_color": "red",
     "display": "standalone",
     "icons": [{
-            "src": "images/Electrovedalmg.jpeg",
+            "src": "images/Electrovedalmg.png",
             "sizes": "512x512",
             "types": "images/jpeg"
         },
         {
-            "src": "images/Electrovedalmg.jpeg",
+            "src": "images/Electrovedalmg.png",
             "sizes": "512x512",
             "types": "images/jpeg"
         }
