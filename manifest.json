@@ -6,12 +6,12 @@
     "theme_color": "red",
     "display": "standalone",
     "icons": [{
-            "src": "images/Electrovedalmg192.png",
+            "src": "https://raw.githubusercontent.com/venkateshjamge/Electroveda/main/images/ElectrovedaImg192.png",
             "sizes": "192x192",
             "types": "images/png"
         },
         {
-            "src": "images/Electrovedalmg512.png",
+            "src": "https://raw.githubusercontent.com/venkateshjamge/Electroveda/main/images/ElectrovedaImg512.png",
             "sizes": "512x512",
             "types": "images/png"
         }
